@@ -28,4 +28,19 @@
     alipay: 支付宝支付二维码url
     
     webChat: 微信支付二维码url
-    
+
+可能出现的问题
+
+  如果在引用的时候（例如放到博客中时）出现位置错乱，请将reward.js中的 "margin-left": "-40px" 去掉，如下。
+  
+  ```
+  $('#not-full li').css({
+		"display": "block",
+	    "height": "56px",
+	    "-webkit-transition": "background-color .2s linear",
+	    "transition": "background-color .2s linear",
+	    "margin-left": "-40px",  引用时位置出现错乱，这一行可以去掉
+    	"padding": "0",
+	    "list-style": "none",
+	});
+  ```
