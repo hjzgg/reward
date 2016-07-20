@@ -2,16 +2,17 @@
 打赏标签（jquery+css）
 
 引用方式
+  ```js代码
   <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
   
   <script type="text/javascript">
   
-  	window.reward_config={align: "right", top: "10%", animate: true, alipay: "./img/alipay.jpg", webChat: "./img/webChat.png"};
+  	  window.reward_config={align: "right", top: "10%", animate: true, alipay: "./img/alipay.jpg", webChat: "./img/webChat.png"};
   	
-  	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='./reward.js'];
+  	  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='./reward.js'];
   	
   </script>
-  
+  ```
   1.指定jquery文件的url
   
   2.指定reward.js文件的url
